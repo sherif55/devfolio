@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+.navbar {
+  width: 100%;
+  margin: auto;
+}
+/* ===================================== first-part ================================= */
+.main-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 753px;
+}
+.bg-img {
+  height: 753px;
+  background-image: url(../images/intro-bg.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-text {
+  color: #fff;
+  text-align: center;
+}
+.main-text h1 {
+  font-size: 72px;
+}
+.main-text p {
+  font-size: 40px;
+}
+
+/* ======================================= second-part ====================================== */
+.seconed-part {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+.about-me {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+}
+.l-about-me {
+  width: 50%;
+  margin: auto;
+}
+.l-about-me img {
+  float: left;
+  padding: 0px 30px;
+  border-radius: 8px;
+}
+.r-about-me {
+  width: 50%;
+  margin: auto;
+  padding: 30px 0px;
+}
+.text-info p {
+  color: #4e4e4e;
+}
+.text-info {
+  padding: 0px 30px;
+}
+.text-info span {
+  font-weight: bold;
+  color: #000;
+}
+.text-about-me p {
+  color: #4e4e4e;
+  font-size: 20px;
+}
+.border-1 {
+  border-top: #0078ff solid 1px;
+  width: 20%;
+}
+.skills {
+  padding: 30px;
+}
+.back-layer {
+  background-color: #cde1f8;
+  height: 15px;
+  width: 100%;
+}
+.front-layer-1,
+.front-layer-2,
+.front-layer-3,
+.front-layer-4 {
+  background-color: #0078ff;
+  height: 15px;
+}
+.front-layer-1 {
+  width: 85%;
+}
+.front-layer-2 {
+  width: 75%;
+}
+.front-layer-3 {
+  width: 50%;
+}
+.front-layer-4 {
+  width: 90%;
+}
+/* ====================================== third-part ============================================ */
+.third-part {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+.service-title {
+  text-align: center;
+  padding: 30px;
+}
+.service-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.border-2 {
+  border-top: #0078ff solid 1px;
+  width: 5%;
+  margin: auto;
+}
+.services-1,
+.services-2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  width: 30%;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  color: #4e4e4e;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+  border-radius: 16px;
+}
+.service h5,
+.service p {
+  padding: 10px;
+}
+.service i {
+  font-size: 40px;
+  color: #1e1e1e;
+  background-color: #fff;
+  border: #0078ff solid 10px;
+  border-radius: 50%;
+  padding: 25px;
+  transition: all 0.5s;
+}
+.service i:hover {
+  border: #cde1f8 solid 10px;
+  color: #fff;
+  background-color: #0078ff;
+}
+
+/* ===================================== fourth-part ======================================== */
+.bg-color {
+  background-color: #0078ff;
+  height: 380px;
+  opacity: 0.7;
+}
+.fourth-part {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  background-image: url(../images/post-3.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height: 380px;
+}
+.counter {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  height: 380px;
+}
+.counter i {
+  font-size: 32px;
+  border: #f5f5f5 solid 10px;
+  border-radius: 50%;
+  padding: 15px;
+}
+.counter p {
+  font-size: 32px;
+}
+
+.work,
+.year,
+.client,
+.won {
+  width: 22.5%;
+  text-align: center;
+  margin-left: 30px;
+}
+/* ========================================= fifth-part ========================================== */
+.fifth-part {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+.portfolio-title {
+  text-align: center;
+  padding: 30px;
+}
+.portfolio-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.border-3 {
+  border-top: #0078ff solid 1px;
+  width: 5%;
+  margin: auto;
+}
+.portfolio-1,.portfolio-2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio
+{
+    width: 30%;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    color: #4e4e4e;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+}
+.portfolio:hover.portfolio img{
+  transform: scale(1.1);
+}
+.portfolio h5{
+ font-size: 19.2px;
+}
+.portfolio p{
+    font-size: 12.5px;
+    float:left;
+}
+.portfolio span{
+    color: #0078ff;
+}
+.portfolio i{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    color: #0078ff;
+    float: right;
+    border: #0078ff solid 2px;
+    border-radius: 50%;
+    padding: 10px 12px;
+    width: 50px;
+    height: 50px;
+}
+.portfolio img{
+    width: 100%;
+    transition: all 1s;
+}
+
+/* ====================================== seventh-part ================================================== */
+.seventh-part{
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+.blog-title {
+  text-align: center;
+  padding: 30px;
+}
+.blog-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.border-4 {
+  border-top: #0078ff solid 1px;
+  width: 5%;
+  margin: auto;
+}
+.blogs{
+  width: 90%;
+  margin: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog img{
+  width: 100%;
+}
+.blog{
+  width: 33.3333%;
+  margin: 20px 15px;
+  position: relative;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 13px 8px -10px;
+}
+.flow-title{
+  font-size: 11.2px;
+  background-color: #0078ff;
+  width: 80px;
+  height: 29px;
+  padding: 6px 0;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  position:absolute;
+  top: 248px;
+  left: 150px;
+}
+.desc{
+  margin-top: 20px;
+  margin-left:15px;
+  margin-right:15px;
+  background-color: #fff;
+}
+.desc h3{
+  font: 20.8px;
+}
+.blog-info{
+  background-color:rgba(0, 0, 0, 0.03);
+  color: #4e4e4e;
+  display: flex;
+}
+.blog-info img{
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  margin-left: 10px;
+  border-radius: 50%;
+  float: left;
+}
+
+.l-side{
+  width: 50%;
+ justify-content: left;
+ align-items: center;
+}
+.l-side p {
+  padding: 5px 0px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.l-side p:hover{
+  color: #0078ff;
+}
+.r-side{
+  width: 50%;
+ justify-content: right;
+ align-items: center;
+ text-align: right;
+}
+.r-side span{
+  margin-right: 15px;
+}
+/* ==================================== eigth-part =================================================== */
+.eigth-part{
+  background-image: url(../images/overlay-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+}
+.blog-title {
+  text-align: center;
+}
+.blog-title h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.border-5 ,.border-6 {
+  border-top: #0078ff solid 1px;
+  width: 5%;
+  margin-left: 20px;
+}
+.eigth-part-bg-color{
+  background-color: rgba(0,78,255,0.6);
+}
+.contact-us{
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.massage-us{
+  width: 40%;
+  margin: auto;
+}
+.form-control{
+  width: 95%;
+}
+.in-touch{
+  width: 40%;
+  color: #4e4e4e;
+  margin: auto;
+}
+.touch-icon i{
+  float: left;
+  color: #0078ff;
+  font-size: 25px;
+}
+.touch-icon p{
+  padding: 0px 30px;
+}
+.social i{
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  text-align: center;
+  border:#0078ff solid 3px;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+.social i:hover{
+  color: #fff;
+  background-color: #0078ff;
+  border: #cde1f8 solid 3px;
+}
+.sendbtn{
+  border-radius: 80px;
+ width: 170px;
+ height: 48px;
+}
+/* ====================================== nineth-part ========================================= */
+.nineth-part{
+  width: 100%;
+  margin: auto;
+  background-color:#0062D3
+}
+.copy{
+  
+  color: #fff;
+  text-align: center;
+}
+
+
